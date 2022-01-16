@@ -21,7 +21,7 @@ zf_dialog link: https://github.com/zf-development/zf_dialog
 
 # es_extended/server/functions.lua - Anywhere in File
 
-ESX.RefreshJobs = function()
+ ESX.RefreshJobs = function()
     ESX.Jobs = {}
     MySQL.Async.fetchAll('SELECT * FROM jobs', {}, function(jobs)
         for k,v in ipairs(jobs) do
@@ -46,4 +46,4 @@ ESX.RefreshJobs = function()
             end
         end)
     end) 
-end
+ end
