@@ -40,9 +40,3 @@ https://github.com/zf-development/zf_context https://github.com/zf-development/z
             end)
         end) 
     end
-
-# Help
-
-If you need any help with any problem just message me on discord.
-
-Adzeepulse#7832
