@@ -1,7 +1,7 @@
 local ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-Discord_url = "https://discord.com/api/webhooks/932295903669268530/kIw9aCG-YG3D4RPkplGm2PGsmGsvl_Syb2sv3gCO7G4IPurtXAMZCZTJTlXMxOhj2O96"
+Discord_url = ""
 
 ESX.RegisterServerCallback('ap_createjob:getAdmin',function(source, cb)
 	local xPlayer = ESX.GetPlayerFromId(source)
