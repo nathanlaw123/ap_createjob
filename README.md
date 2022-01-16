@@ -1,12 +1,6 @@
 # ap_createjob
  FiveM script for esx legacy where you can create jobs and job grades in game without the need to restart the server.
 
-# Help
-
-If you need any help with any problem just message me on discord.
-
-Adzeepulse#7832
-
 # How to use in game.
 
 Make sure you are setup as an admin or superadmin in the esx database under users, once done you can open the menu in game by typeing /menujobs this should then open the menu to create new jobs and grades.
@@ -21,7 +15,7 @@ zf_dialog link: https://github.com/zf-development/zf_dialog
 
 # es_extended/server/functions.lua - Anywhere in File
 
- ESX.RefreshJobs = function()
+ESX.RefreshJobs = function()
     ESX.Jobs = {}
     MySQL.Async.fetchAll('SELECT * FROM jobs', {}, function(jobs)
         for k,v in ipairs(jobs) do
@@ -46,4 +40,10 @@ zf_dialog link: https://github.com/zf-development/zf_dialog
             end
         end)
     end) 
- end
+end
+
+# Help
+
+If you need any help with any problem just message me on discord.
+
+Adzeepulse#7832
