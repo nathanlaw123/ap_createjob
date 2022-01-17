@@ -8,7 +8,7 @@ Make sure you are setup as an admin or superadmin in the esx database under user
 There is also discord webhook intergration in the server.lua file at the top, make sure to insert your webhook link before you create jobs or grades.
 
 
-# This version is for anyone using zf_context and zf_dialog.
+# Requirements
 
 * [zf_context](https://github.com/zf-development/zf_context)
 * [zf_dialog](https://github.com/zf-development/zf_dialog)
