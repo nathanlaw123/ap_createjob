@@ -10,7 +10,8 @@ There is also discord webhook intergration in the server.lua file at the top, ma
 
 # This version is for anyone using zf_context and zf_dialog.
 
-https://github.com/zf-development/zf_context https://github.com/zf-development/zf_dialog
+* [zf_context](https://github.com/zf-development/zf_context)
+* [zf_dialog](https://github.com/zf-development/zf_dialog)
 
 # es_extended/server/functions.lua - Anywhere in File
 
