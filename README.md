@@ -1,11 +1,11 @@
 # ap_createjob
- FiveM script for esx where you can create jobs and job grades in game without the need to restart the server.
+ FiveM script for esx where you can create jobs and job grades and including items in game without the need to restart the server.
 
 # How to use in game.
 
-Make sure you are setup as an admin or superadmin in the esx database under users, once done you can open the menu in game by typeing /menujobs this should then open the menu to create new jobs and grades.
+Make sure you are setup as an admin or superadmin in the esx database under users, once done you can open the menu in game by typeing /menujobs this should then open the menu to create new jobs and items.
 
-There is also discord webhook intergration in the server.lua file at the top, make sure to insert your webhook link before you create jobs or grades.
+There is also discord webhook intergration in the server.lua file at the top, make sure to insert your webhook link before you create jobs or items.
 
 
 # Requirements
